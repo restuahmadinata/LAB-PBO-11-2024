@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.ttf');
+}
+
+.root {
+    -fx-font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono';
+}
+
+#layout {
+    -fx-padding: 50;
+    -fx-alignment: center;
+    -fx-background-color: #1F1E2C;
+
+    padding: 50;
+    background-color: #1F1E2C;
+}
+
+#title {
+    -fx-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+
+    fill: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#subtitle {
+    -fx-fill: white;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+
+    fill: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#line {
+    -fx-fill: white;
+    fill: white;
+}
+
+#profileButton {
+    -fx-background-color: #2D2D45;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+
+    background-color: #2D2D45;
+    padding: 10 20;
+    font-size: 14px;
+}
+
+#tombolAneh {
+    -fx-background-color: #2D2D45;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-size: 11px;
+
+    background-color: #2D2D45;
+    padding: 10 20;
+    font-size: 11px;
+}

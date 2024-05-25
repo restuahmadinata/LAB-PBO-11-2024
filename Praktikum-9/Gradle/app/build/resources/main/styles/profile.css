@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.ttf');
+}
+
+.root {
+    -fx-font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono';
+}
+
+#combinedLayout {
+    -fx-padding:20;
+    -fx-background-color: #1F1E2C;
+    padding: 20;
+    background-color: #1F1E2C;
+}
+
+#buttonContainer {
+    -fx-padding: 20;
+    padding: 20;
+}
+
+#homeButton {
+    -fx-background-color: #2D2D45;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+
+    background-color: #2D2D45;
+    padding: 10 20;
+    font-size: 14px;
+}
+
+#layout {
+    -fx-padding: 20;
+    -fx-alignment: center;
+    padding: 20;
+}
+
+#fotoRadinata {
+    -fx-background-radius: 75;
+    -fx-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#namaRadinata {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+
+    fill: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#tentangRadinata {
+    -fx-fill: #939191;
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+
+    fill: #939191;
+    font-size: 14px;
+}
+
+#fotoMirai {
+    -fx-background-radius: 75;
+    -fx-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#namaMirai {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+
+    fill: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#tentangMirai {
+    -fx-fill: #939191;
+    -fx-font-size: 14px;
+    -fx-text-alignment: center;
+
+    fill: #939191;
+    font-size: 14px;
+}
